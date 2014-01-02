@@ -28,7 +28,10 @@ gem 'bootstrap-sass'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+group :development  do
+gem 'sqlite3'	
 
+end
 
 
 # Use ActiveModel has_secure_password
