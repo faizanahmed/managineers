@@ -20,7 +20,7 @@ test:
 
 production:
   adapter: postgresql
-  database: production
+  database: agile-inlet-8477
   pool: 5
   timeout: 5000
   host: localhost
