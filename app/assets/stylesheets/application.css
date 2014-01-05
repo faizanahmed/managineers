@@ -20,3 +20,29 @@
 	height: 500px !important;
 	margin-bottom: 20px !important;
 }
+.navbar-inverse {
+
+border-color: #0A0909 !important;
+}
+.card
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border-radius: 25px;	
+	border-width: 5px;	
+    border-style:outset; 
+    border-bottom-color:#ffffff;
+    border-top-color: #0099ff;
+    border-left-color: #0099ff;
+    border-right-color:##ffffffs;
+}
+.aboutus
+{
+	margin: 100px 15%;s
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	color: #0099ff;
+}
+html,body,#map-canvas
+{
+	height:100%
+}

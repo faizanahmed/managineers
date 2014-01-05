@@ -28,45 +28,7 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <div class="navbar-wrapper">
-      
-
-        <div class="navbar navbar-inverse navbar-static-top navbar-fixed-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">MANAGINEERS</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      
-    </div>
-
+  
 
     <!-- Carousel
     ================================================== -->
@@ -119,19 +81,24 @@
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="col-lg-4">
-          <img src="http://t0.gstatic.com/images?q=tbn:ANd9GcRiuLQZ9LnsUMJZ07vzcuMVEmAM41WuBHW4Vrkje3yEKa30zAQw" alt="Generic placeholder image">
+        
+        <div class="col-lg-3 col-md-offset-1 card">
+          <%= image_tag('whoarewe.jpg',:size => "225x225")%>
           <h2 style="text-align:center">Who are we</h2>
           <p>Managineers E-Markets is a venture of Managineers Group which has been effectively catering and supporting businesses through Business & IT consulting and educational services. With this venture, we are entering the E- Commerce market where our focus is to provide internet based marketing services to our customers.</p>
-          </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
+          </div>
+          <!-- /.col-lg-4 -->
+        <div class="col-lg-3 col-lg-3 col-md-offset-1 card">
           
-          <img src="http://t0.gstatic.com/images?q=tbn:ANd9GcRiuLQZ9LnsUMJZ07vzcuMVEmAM41WuBHW4Vrkje3yEKa30zAQw" alt="Generic placeholder image"><h2 style="text-align:center">Vission</h2>
+          <%= image_tag('vision.jpg',:size => "225x225")%><h2 style="text-align:center">Vision</h2>
           <p>The vision of our company is an achievable, purpose-led model that has a real and substantial reflect on our deliveries and our conduct. We are committed to strive and ensure that our offerings are revolutionary, ahead of the times, benchmarked against best global trends & practices and built around our esteemed customers' needs</p>
-          </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-        <img src="http://t0.gstatic.com/images?q=tbn:ANd9GcRiuLQZ9LnsUMJZ07vzcuMVEmAM41WuBHW4Vrkje3yEKa30zAQw" alt="Generic placeholder image">  <h2 style="text-align:center">Mission</h2>
+          </div>
+          <!-- /.col-lg-4 -->
+        <div class="col-lg-3 col-lg-3 col-md-offset-1 card">
+        
+        <%= image_tag('mission.jpg',:size => "225x225") %>  <h2 style="text-align:center">Mission</h2>
           <p>To make effective use of cyberspace for data mining and enforcing our analytics tools, through which we could generate up-to-date information, extract the potential market and route the correct information to the correct person at the correct time.</p>
+          
           </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -146,17 +113,16 @@
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-          <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTpSC_y2SwPdkhyk6FteYQoOPIk6kYfgG42HCg7Wy3TJhViVzXt" alt="Generic placeholder image">
-        </div>
+          <%= image_tag('q1.jpg') %></div>
       </div>
 
       <hr class="featurette-divider">
 
       <div class="row featurette">
-        <div class="col-md-5">
-                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTpSC_y2SwPdkhyk6FteYQoOPIk6kYfgG42HCg7Wy3TJhViVzXt" alt="Generic placeholder image">
+        <div class="col-md-4">
+                    <%= image_tag('q2.jpg') %>
         </div>
-        </div>
+        
         <div class="col-md-7">
           <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -171,7 +137,7 @@
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTpSC_y2SwPdkhyk6FteYQoOPIk6kYfgG42HCg7Wy3TJhViVzXt" alt="Generic placeholder image">
+<%= image_tag('q3.jpg') %>
         </div>
         </div>
       </div>
