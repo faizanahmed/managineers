@@ -4,6 +4,8 @@ Managineers::Application.routes.draw do
   get '/about', to: 'home#about',as: 'about' ;
   get '/home', to: 'home#index',as: 'home' ;
   get '/contact', to: 'home#contact',as: 'contact' ;  # The priority is based upon order of creation: first created -> highest priority.
+  get 'leads',to: 'home#leads',as: 'leads'
+  get 'crm',to: 'home#crm',as: 'crm'
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"

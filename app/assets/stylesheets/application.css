@@ -11,33 +11,26 @@
  *= require_self
  *= require_tree .
  */
-.navbar
-{
-	margin-bottom: 0px !important;
+
+.carousel .layer {
+   position: absolute;
 }
-.carousel-inner
-{
-	height: 500px !important;
-	margin-bottom: 20px !important;
+.carousel .glare {
+   z-index: 1000;
 }
+ 
 .navbar-inverse {
 
 border-color: #0A0909 !important;
 }
-.card
+.bord
 {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	border-radius: 25px;	
-	border-width: 5px;	
-    border-style:outset; 
-    border-bottom-color:#ffffff;
-    border-top-color: #0099ff;
-    border-left-color: #0099ff;
-    border-right-color:#ffffff;
+	border-radius: 10px;
+	
 }
 .aboutus
-{
-	margin: 100px 15%;
+{	margin-top: 8%;
+	margin-left:5%;
 	font-family: Arial, sans-serif;
 	font-size: 18px;
 	color: #0099ff;
@@ -45,4 +38,76 @@ border-color: #0A0909 !important;
 html,body,#map-canvas
 {
 	height:100%
+}
+.carousel{
+	max-width:100% !important;
+ height:100%px !important;
+
+}
+.beech
+{
+	text-align: center !important;
+}
+.lead
+{
+	font-size: 14px !important;
+	color:#5a5a5a !important;
+	text-align:justify;
+text-justify:inter-word;
+}
+.featurette-heading
+{
+
+	font-weight: normal;
+line-height: 1.1;
+color: #2a2a2a;
+
+	font:normal 21px octicons !important;
+line-height: 1 !important;
+display: inline-block !important;
+text-decoration: none !important;
+-webkit-font-smoothing: antialiased !important;
+}
+.title
+{
+	font:normal 32px octicons !important;
+line-height: 1 !important;
+display: inline-block !important;
+text-decoration: none !important;
+-webkit-font-smoothing: antialiased !important;
+}
+.navbar-inverse
+{
+	background-color: white !important;
+	color: blue !important;
+
+	span:hover
+	{
+		color: blue !importants;
+	}
+
+}
+.navbar-nav
+{
+	}
+.navbar-brand
+{
+	color: black !important;
+	a:hover
+	{
+		color:yellow !important;
+	}
+}
+a:hover
+	{
+		color: #428bca !important;
+	}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+background-color: #FFFFFF !important;
+color: rgb(26, 23, 23) !important;
+}
+.mar
+{
+	margin-top: 10%;
+	
 }

@@ -7,4 +7,8 @@ end
 def contact
 	
 end
+def leads
+end
+def crm
+end
 end

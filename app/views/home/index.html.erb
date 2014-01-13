@@ -1,158 +1,134 @@
+<br>
+<br>
+<br>
+<br>
+<div class="row">
+<div class="col-md-10 col-md-offset-1">
+<span class="beech">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+             <li data-target="#carousel-example-generic" data-slide-to="3" ></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            
+          </ol>
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-
-    <title>Carousel Template for Bootstrap</title>
-
-    
-
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Custom styles for this template -->
-    
-  </head>
-<!-- NAVBAR
-================================================== -->
-  <body>
-  
-
-    <!-- Carousel
-    ================================================== -->
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" >
-  
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
-
-  
-  <div class="carousel-inner">
-    <div class="item ">
-      <img src="http://www.emahomagazine.com/wp-content/uploads/2012/09/QUAD-and-FORMAT-image-by-Graham-Lucas-Commons.jpg" height="180" >
-      <div class="carousel-caption">
-        <h1>Some optional text  </h1>
-        <h3> Some optional text  </h3>
-      </div>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <%= image_tag('11.jpg',class: "img-responsive") %>
+              
+            </div>
+            
+          
+            <div class="item ">
+              <%= image_tag('22.jpg',:size=>'1900x600',class: "img-responsive") %>
+            </div>
+          
+            <div class="item ">
+              <%= image_tag('33.jpg',class: "img-responsive") %>
+            </div>
+            
+             <div class="item ">
+              <%= image_tag('44.jpg',class: "img-responsive") %>
+              </div>
+              <div class="item ">
+              <%= image_tag('55.jpg',class: "img-responsive") %>
+              
+            </div>
+        </div>
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+        </div>
+    </span>
     </div>
-    <div class="item active">
-      <img src="http://ghanafans.com/wp-content/uploads/2013/12/Ronaldo-Portugal.jpg">
-      <div class="carousel-caption">
-        <h1>Some optional text Goes here </h1>
-        <h2>Some optional text </h2>
-      </div>
-    </div>
-    <div class="item ">
-      <img src="http://www.hdnicewallpapers.com/Wallpapers-Download/Santa-Clause-Image-in-Red-Background-Pic" width="1286" height="420" >
-      <div class="carousel-caption">
-        <h1> Some optional text  </h1>
-      </div>
-    </div>
-  </div>
-
-    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>      
-
-
+</div>
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        
-        <div class="col-lg-3 col-md-offset-1 card">
-          <%= image_tag('whoarewe.jpg',:size => "225x225")%>
-          <h2 style="text-align:center">Who are we</h2>
-          <p>Managineers E-Markets is a venture of Managineers Group which has been effectively catering and supporting businesses through Business & IT consulting and educational services. With this venture, we are entering the E- Commerce market where our focus is to provide internet based marketing services to our customers.</p>
-          </div>
-          <!-- /.col-lg-4 -->
-        <div class="col-lg-3 col-lg-3 col-md-offset-1 card">
-          
-          <%= image_tag('vision.jpg',:size => "225x225")%><h2 style="text-align:center">Vision</h2>
-          <p>The vision of our company is an achievable, purpose-led model that has a real and substantial reflect on our deliveries and our conduct. We are committed to strive and ensure that our offerings are revolutionary, ahead of the times, benchmarked against best global trends & practices and built around our esteemed customers' needs</p>
-          </div>
-          <!-- /.col-lg-4 -->
-        <div class="col-lg-3 col-lg-3 col-md-offset-1 card">
-        
-        <%= image_tag('mission.jpg',:size => "225x225") %>  <h2 style="text-align:center">Mission</h2>
-          <p>To make effective use of cyberspace for data mining and enforcing our analytics tools, through which we could generate up-to-date information, extract the potential market and route the correct information to the correct person at the correct time.</p>
-          
-          </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
+<!-- ss -->
 
 
       <!-- START THE FEATURETTES -->
+      <div class=" row card">
+      <div class="col-md-10 col-md-offset-2">
 
-      <hr class="featurette-divider">
+          <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <%= image_tag('q1.jpg') %></div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-4">
-                    <%= image_tag('q2.jpg') %>
-        </div>
-        
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-<%= image_tag('q3.jpg') %>
-        </div>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
+            <div class="row featurette">
+                <div class="col-md-4 ">
+                  <h2 class="featurette-heading">Who are we</h2>
+                  <p class="lead">Managineers E-Markets is a venture of Managineers Group which has been effectively catering and supporting businesses through Business & IT consulting and educational services. With this venture, we are entering the E- Commerce market where our focus is to provide internet based marketing services to our customers.</p>
+                 
+                </div>
+                <div class="col-md-4">
+                  <%= image_tag('logo.jpg',:size=> "420x200") %>
+                </div>
+            <div class="row featurette">
+                <div class="col-md-9 ">
+            <hr>
+            </div>
+            </div>
+            </div>
 
 
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; Managineers Group Of Companie, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
+            
 
+          <div class="row featurette">
+            <div class="col-md-4 ">
+                 <%= image_tag('whoarewe.jpg',:size=> "300x200") %>
+            </div>
+            
+            <div class="col-md-5 ">
+              <h2 class="featurette-heading">Vision</h2>
+              <p class="lead ">The vision of our company is an achievable, purpose-led model that has a real and substantial reflect on our deliveries and our conduct. We are committed to strive and ensure that our offerings are revolutionary, ahead of the times, benchmarked against best global trends & practices and built around our esteemed customers' needs.</p>
+            </div>
+          <div class="row featurette">
+                <div class="col-md-9 ">
+            <hr>
+            </div>
+            </div>
+          </div>
+
+          
+
+          <div class="row featurette">
+            <div class="col-md-5 ">
+              <h2 class="featurette-heading">Mission</h2>
+              <p class="lead ">To make effective use of cyberspace for data mining and enforcing our analytics tools, through which we could generate up-to-date information, extract the potential market and route the correct information to the correct person at the correct time.</p>
+            </div>
+            <div class="col-md-4">
+    <%= image_tag('q2.jpg',:size=> "350x200") %>
+            </div>
+            <div class="row featurette">
+                <div class="col-md-9 ">
+            <hr>
+            </div>
+            </div>
+            </div>
+  
+
+          
+
+          <!-- /END THE FEATURETTES -->
+
+
+          <!-- FOOTER -->
+          <footer>
+            <p class="pull-right"><a href="#">Back to top</a></p>
+            <p>&copy; Managineers Group Of Companie, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+          </footer>
+
+</div>
     </div><!-- /.container -->
 
 
@@ -160,5 +136,4 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     
-  </body>
-</html>
+ 
